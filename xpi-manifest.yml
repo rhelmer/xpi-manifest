@@ -93,3 +93,12 @@ xpis:
       - web-ext-artifacts/pioneer-v2-example.xpi
     addon-type: privileged
     install-type: npm
+    - name: news-disinformation-study
+    description: Princeton News Disinformation Study
+    repo-prefix: newsdisinformationstudy
+    active: true
+    private-repo: false
+    artifacts:
+      - web-ext-artifacts/news-disinformation-study.xpi
+    addon-type: privileged
+    install-type: npm
